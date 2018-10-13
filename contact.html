@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <style>
+            .footer{
+                padding: 40px 0;
+                color: #999;
+                background-color: #f9f9f9;
+                border-top: 1px solid #e5e5e5;
+            }
+            body, html{
+                overflow-x: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigasi Bar Start -->
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle"
+                         data-toggle="dropdown" role="button"
+                         aria-haspopup="true" aria-expanded="false">Dropdown 
+                          <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li class="dropdown-header">Nav header</li>
+                          <li><a href="#">Separated link</a></li>
+                          <li><a href="./formulir/registrasi.html">Registrasi</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </nav>
+        <!-- Navigasi Bar End -->
+        <!-- Content Start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="#" method="post">
+                        Nama : <br />
+                        <input class="form-control" type="text" name="nama" placeholder="Nama" required="">
+                        Email: <br />
+                        <input class="form-control" type="email" name="email" placeholder="Email" required="">
+                        Feedback: <br />
+                        <textarea cols="60" rows="3" class="form-control"></textarea>
+                        <input type="submit" class="btn btn-primary" value="Send">
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h1>Peta Lokasi</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.643872071226!2d106.83205141430986!3d-6.178402662260008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4330fc1f097%3A0x380210b0f3ed4996!2sVocational+High+School+2+Jakarta!5e0!3m2!1sen!2sid!4v1539405380255" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Content End -->
+        <!-- Footer Start -->
+        <div class="row footer">
+            <div class="col-md-1">&nbsp;</div>
+            <div class="col-md-10">
+                <div class="col-md-4">
+                    <h3>Marketing</h3>
+                    <ul>
+                        <li>Person 1</li>
+                        <li>Person 2</li>
+                        <li>Person 3</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Web Admin</h3>
+                    <ul>
+                        <li>Person 1</li>
+                        <li>Person 2</li>
+                        <li>Person 3</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>+ 62 00000000</li>
+                        <li>webmaster@saya.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
